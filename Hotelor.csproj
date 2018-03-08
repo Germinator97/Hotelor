@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A0C1A95-451B-46F6-8CF2-DE62A378F259}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BE_Informatique</RootNamespace>
+    <AssemblyName>BE_Informatique</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nTransition">
+      <HintPath>..\packages\nTransition.0.1.1.0\lib\portable-net40+sl50+win+wpa81+wp80\nTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Transitions">
+      <HintPath>..\packages\dot-net-transitions.1.2.1.0\lib\net40-full\Transitions.dll</HintPath>
+    </Reference>
+    <Reference Include="WpfTransition">
+      <HintPath>..\packages\WpfTransition.1.0.0.2\lib\WpfTransition.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Archives.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Archives.Designer.cs">
+      <DependentUpon>Archives.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authentification.Designer.cs">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BDArchives.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDArchives.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BDBanque.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDBanque.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BDClients.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDClients.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BDPaiements.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDPaiements.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BDRecu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDRecu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BDService.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDService.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BDServices.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDServices.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ClasseVariables.cs" />
+    <Compile Include="Bienvenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bienvenue.Designer.cs">
+      <DependentUpon>Bienvenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrateur.Designer.cs">
+      <DependentUpon>Administrateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotel.Designer.cs">
+      <DependentUpon>Hotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demande.Designer.cs">
+      <DependentUpon>Demande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification.Designer.cs">
+      <DependentUpon>Modification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pertes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pertes.Designer.cs">
+      <DependentUpon>Pertes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recu.Designer.cs">
+      <DependentUpon>Recu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services.Designer.cs">
+      <DependentUpon>Services.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sorties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sorties.Designer.cs">
+      <DependentUpon>Sorties.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Archives.resx">
+      <DependentUpon>Archives.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authentification.resx">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bienvenue.resx">
+      <DependentUpon>Bienvenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrateur.resx">
+      <DependentUpon>Administrateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotel.resx">
+      <DependentUpon>Hotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demande.resx">
+      <DependentUpon>Demande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification.resx">
+      <DependentUpon>Modification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pertes.resx">
+      <DependentUpon>Pertes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Recu.resx">
+      <DependentUpon>Recu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services.resx">
+      <DependentUpon>Services.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sorties.resx">
+      <DependentUpon>Sorties.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="AppData.xsc">
+      <DependentUpon>AppData.xsd</DependentUpon>
+    </None>
+    <None Include="AppData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AppData.xss">
+      <DependentUpon>AppData.xsd</DependentUpon>
+    </None>
+    <None Include="BDArchives.xsc">
+      <DependentUpon>BDArchives.xsd</DependentUpon>
+    </None>
+    <None Include="BDArchives.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDArchives.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDArchives.xss">
+      <DependentUpon>BDArchives.xsd</DependentUpon>
+    </None>
+    <None Include="BDBanque.xsc">
+      <DependentUpon>BDBanque.xsd</DependentUpon>
+    </None>
+    <None Include="BDBanque.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDBanque.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDBanque.xss">
+      <DependentUpon>BDBanque.xsd</DependentUpon>
+    </None>
+    <None Include="BDClients.xsc">
+      <DependentUpon>BDClients.xsd</DependentUpon>
+    </None>
+    <None Include="BDClients.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDClients.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDClients.xss">
+      <DependentUpon>BDClients.xsd</DependentUpon>
+    </None>
+    <None Include="BDPaiements.xsc">
+      <DependentUpon>BDPaiements.xsd</DependentUpon>
+    </None>
+    <None Include="BDPaiements.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDPaiements.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDPaiements.xss">
+      <DependentUpon>BDPaiements.xsd</DependentUpon>
+    </None>
+    <None Include="BDRecu.xsc">
+      <DependentUpon>BDRecu.xsd</DependentUpon>
+    </None>
+    <None Include="BDRecu.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDRecu.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDRecu.xss">
+      <DependentUpon>BDRecu.xsd</DependentUpon>
+    </None>
+    <None Include="BDService.xsc">
+      <DependentUpon>BDService.xsd</DependentUpon>
+    </None>
+    <None Include="BDService.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDService.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDService.xss">
+      <DependentUpon>BDService.xsd</DependentUpon>
+    </None>
+    <None Include="BDServices.xsc">
+      <DependentUpon>BDServices.xsd</DependentUpon>
+    </None>
+    <None Include="BDServices.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDServices.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDServices.xss">
+      <DependentUpon>BDServices.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Administrateur\Administrateur.csproj">
+      <Project>{4802f98b-93fc-47d0-ac29-0b115e72baa5}</Project>
+      <Name>Administrateur</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Clients.csproj">
+      <Project>{cec22eb9-45ed-4322-8159-c0d287023d8a}</Project>
+      <Name>Clients</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hotel\Hotel.csproj">
+      <Project>{fcc2d109-c0b2-46d2-b6ce-d581faffb4f9}</Project>
+      <Name>Hotel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pertes\Pertes.csproj">
+      <Project>{78b81286-b820-4ba7-b040-4cd22dc4edca}</Project>
+      <Name>Pertes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Session\Session.csproj">
+      <Project>{2d3be522-0acc-455e-a97f-f9fb2cdaebc0}</Project>
+      <Name>Session</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BD.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\zylom.ico" />
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

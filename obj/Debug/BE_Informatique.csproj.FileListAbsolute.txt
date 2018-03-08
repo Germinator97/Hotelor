@@ -1,0 +1,60 @@
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\BD.accdb
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\BE_Informatique.exe.config
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\BE_Informatique.exe
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\BE_Informatique.pdb
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\Administrateur.dll
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\Domain.dll
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\Hotel.dll
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\Pertes.dll
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\Session.dll
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\Administrateur.pdb
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\Domain.pdb
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\Hotel.pdb
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\Pertes.pdb
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\bin\Debug\Session.pdb
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.csprojResolveAssemblyReference.cache
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Archives.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Authentification.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Bienvenue.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Administrateur.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Hotel.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Demande.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Modification.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Pertes.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Properties.Resources.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Recu.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Services.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Sorties.resources
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.csproj.GenerateResource.Cache
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.exe
+C:\Users\Asus R511L\documents\visual studio 2013\Projects\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.pdb
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\BE_Informatique.exe.config
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.exe
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.pdb
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\BD.accdb
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\BE_Informatique.exe
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\BE_Informatique.pdb
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\Administrateur.dll
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\Domain.dll
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\Hotel.dll
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\Pertes.dll
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\Session.dll
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\Administrateur.pdb
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\Domain.pdb
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\Hotel.pdb
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\Pertes.pdb
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\bin\Debug\Session.pdb
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.csprojResolveAssemblyReference.cache
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Archives.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Authentification.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Bienvenue.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Administrateur.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Hotel.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Demande.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Modification.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Pertes.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Properties.Resources.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Recu.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Services.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.Sorties.resources
+G:\VISUAL STUDIO\BE_Informatique\BE_Informatique\obj\Debug\BE_Informatique.csproj.GenerateResource.Cache
